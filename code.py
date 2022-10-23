@@ -22,7 +22,7 @@ while True:
     #print((get_voltage(humidity),))
     if button_a.is_pressed():
         secondsmotorworks+=1
-        if secondsmotorworks > 10:
+        if secondsmotorworks > 9:
             secondsmotorworks = 1
         display.show(secondsmotorworks)
         time.sleep(1)
