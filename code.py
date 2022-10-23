@@ -45,4 +45,4 @@ while True:
             continue
         else:
             display.show(Image.SAD)
-    time.sleep(10)
+    time.sleep(1)
